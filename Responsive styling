@@ -1,0 +1,43 @@
+@media screen and (max-width:64em) {
+   figure {
+      padding-left:0;
+      padding-right:0;
+      height:auto;
+   }
+
+   .controls {
+      height:1.876rem;
+   }
+}
+
+@media screen and (max-width:42.5em) {
+   .controls {
+      height:auto;
+   }
+
+   .controls > * {
+      display:block;
+      width:16.6667%;
+      margin-left:0;
+      height:2.5rem;
+      margin-top:2.5rem;
+   }
+
+   .controls .progress {
+      position:absolute;
+      top:0;
+      width:100%;
+      float:none;
+      margin-top:0;
+   }
+
+   .controls .progress progress {
+      width:98%;
+      margin:0 auto;
+   }
+
+   .controls button {
+      background-position:center center;
+   }
+}
+
